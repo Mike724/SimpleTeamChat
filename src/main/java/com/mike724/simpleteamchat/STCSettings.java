@@ -22,7 +22,7 @@ public class STCSettings {
      */
     public STCSettings(Set<String> enabledTeams, boolean shouldAlter, String prefix, String suffix) {
         this.enabledTeams = enabledTeams;
-        this.enabledPlayers = new HashSet<>();
+        this.enabledPlayers = new HashSet<String>();
         this.shouldAlter = shouldAlter;
         this.prefix = prefix;
         this.suffix = suffix;

@@ -41,7 +41,7 @@ public class STCListener implements Listener {
                 event.getRecipients().clear();
 
                 //Add recipients (team players) that are ONLINE (not offline)
-                ArrayList<Player> teamPlayers = new ArrayList<>();
+                ArrayList<Player> teamPlayers = new ArrayList<Player>();
                 for (Player somePlayer : Bukkit.getOnlinePlayers()) {
                     if (main.getPlayerTeam(somePlayer) == t) {
                         teamPlayers.add(somePlayer);

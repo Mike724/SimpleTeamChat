@@ -27,7 +27,7 @@ public class SimpleTeamChat extends JavaPlugin {
         boolean alter = config.getBoolean("alter.enable");
         String prefix = config.getString("alter.prefix");
         String suffix = config.getString("alter.suffix");
-        settings = new STCSettings(new HashSet<>(teams), alter, prefix, suffix);
+        settings = new STCSettings(new HashSet<String>(teams), alter, prefix, suffix);
 
         this.getServer().getPluginManager().registerEvents(new STCListener(), this);
         this.getCommand("teamchat").setExecutor(new STCCommands());
