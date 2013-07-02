@@ -1,0 +1,5 @@
+enabledTeams: ['red', 'blue']
+alter:
+  enable: true
+  prefix: "[$TEAM]"
+  suffix: ""

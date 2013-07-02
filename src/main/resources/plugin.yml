@@ -1,0 +1,9 @@
+name: SimpleTeamChat
+main: com.mike724.simpleteamchat.SimpleTeamChat
+author: Mike724
+version: ${version}
+commands:
+  teamchat:
+    description: Enable or disable team chat
+    aliases: [tc]
+    usage: Syntax Error! /<command> help
